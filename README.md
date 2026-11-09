@@ -271,10 +271,12 @@ ollama launch claude --model qwen3.8:27b
 
 ```text
 /financial-tax-check ./docs/
-````
+```
 
 Проверяет НДС, арифметику, условия оплаты. Сохраняет
 `./reports/finance-report-[дата].md`.
+
+![Рис.2](https://github.com/agemini/audit-agent/blob/main/screenshots/2_financial-tax-check.png)
 
 #### Проверка русского языка
 
@@ -285,6 +287,8 @@ ollama launch claude --model qwen3.8:27b
 Выявляет орфографические, грамматические, пунктуационные
 ошибки и описки. **Не изменяет** проверяемый файл. Сохраняет
 `./reports/proofreading-report-act.md`.
+
+![Рис.3](https://github.com/agemini/audit-agent/blob/main/screenshots/3_russian-proofreading-check.png)
 
 #### Сравнение версий договора
 
