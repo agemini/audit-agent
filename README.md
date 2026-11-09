@@ -193,6 +193,8 @@ python pdf2md.py ./docs/
 Скрипт создаст `.md`-файлы в той же директории (или в
 поддиректории `md/` — в зависимости от реализации скрипта).
 
+![Рис.1](https://github.com/agemini/audit-agent/blob/main/screenshots/1_pdf2md.png)
+
 ### Запуск агента
 
 ```bash
